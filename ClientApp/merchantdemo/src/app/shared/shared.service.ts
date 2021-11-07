@@ -9,7 +9,7 @@ import {RegisterModel, UpdateProfileModel, ExploreModel, LikeModel, LoginModel, 
 })
 
 export class SharedService {
-    readonly APIUrl = "http://localhost:5000/api";
+    readonly APIUrl = "https://paymerchant.azurewebsites.net/api";
     constructor(private http: HttpClient) {}
     register(model: RegisterModel) {
       return this.http.post (this.APIUrl + '/Creator', model);
