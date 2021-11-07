@@ -267,5 +267,3 @@ ClientApp/node_modules/.bin/node-sass
 ClientApp/node_modules/.bin/node-gyp
 ClientApp/node_modules/.bin/ngc
 
-payme.WebAPI/appsettings.json
-payme.WebAPI/appsettings.Development.json
